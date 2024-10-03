@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baked Bread & Fresh Soup</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            font-family: "Poppins", system-ui;
+            font-family: "Poppins", system-ui;
+            background-color: #434343;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        del {
+            color: rgba(255, 255, 255, 0.377);
+        }
+
+        .hero-section {
+            background-color: #494949;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.199);
+        }
+
+        .product-card {
+            text-align: center;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            padding: 18px;
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: .4s;
+        }
+
+        .product-image:hover {
+            transform: scale(1.1);
+            opacity: .8;
+        }
+
+        .product-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+            color: white;
+        }
+
+        .product-price {
+            display: flex;
+            justify-content: left;
+            font-size: 18px;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .product-description {
+            font-size: 14px;
+            line-height: 1.6;
+            color: white;
+        }
+
+        .text-muted {
+            padding-left: 10px;
+        }
+
+        .btn-buy {
+            display: flex;
+            justify-content: left;
+            background-color: rgba(0, 0, 255, 0.459);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            transition: .3s;
+        }
+
+        .btn-buy:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5 mb-5">
+        <div class="row ">
+            <div class="col-md-15 ">
+                <div class="hero-section">
+                    <h1 class="text-end mb-4">Juice</h1>
+                    <div class="row">
+                        <div class="col-md-4 product-card ">
+                            <img src="https://img.freepik.com/free-photo/tasty-daiquiri-with-lime-slice_23-2149451518.jpg"
+                                alt="Baked Bread" class="product-image">
+                            <h2 class="product-title">Cocktail Fresh</h2>
+                            <p class="product-description">Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat...</p>
+                            <p class="product-price">30.00$<span class="text-muted"><del>69.50$</del></span></p>
+                            <button class="btn-buy">BUY NOW</button>
+                        </div>
+                        <div class="col-md-4 product-card">
+                            <img src="https://img.freepik.com/premium-photo/alcohol-fruit-cocktail-flower-glass_219193-1323.jpg"
+                                alt="Fresh Soup" class="product-image">
+                            <h2 class="product-title">Fresh Juice</h2>
+                            <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                            <p class="product-price">19.50$ <span class="text-muted"> <del>25.00$</del></span></p>
+                            <button class="btn-buy">BUY NOW</button>
+                        </div>
+                        <div class="col-md-4 product-card">
+                            <img src="https://img.freepik.com/premium-photo/chilled-papaya-lassi-served-tall-glass-with-mi_1207919-34253.jpg"
+                                alt="Fresh Soup" class="product-image">
+                            <h2 class="product-title">Cocktail Fresh</h2>
+                            <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                            <p class="product-price">20.00$ <span class="text-muted"><del>30.30$</del></span></p>
+                            <button class="btn-buy">BUY NOW</button>
+                        </div>
+                        <div class="col-md-4 product-card">
+                            <img src="https://img.freepik.com/premium-photo/lassi-with-mix-guava-lime_1177965-52942.jpg"
+                                alt="Fresh Cocktail" class="product-image">
+                            <h2 class="product-title">Cocktail Fresh</h2>
+                            <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                            <p class="product-price">40.00$ <span class="text-muted"><del>69.99$</del></span></p>
+                            <button class="btn-buy">BUY NOW</button>
+                        </div>
+                        <div class="col-md-4 product-card">
+                            <img src="https://img.freepik.com/premium-photo/lassi-with-hint-dill-lemon_1177965-52724.jpg?w=900"
+                                alt="Fresh Cocktail" class="product-image">
+                            <h2 class="product-title">Cocktail Fresh</h2>
+                            <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                            <p class="product-price">10.20$ <span class="text-muted"><del>15.00$</del></span></p>
+                            <button class="btn-buy">BUY NOW</button>
+                        </div>
+                        <div class="col-md-4 product-card">
+                            <img src="https://img.freepik.com/free-photo/view-delicious-milkshake-drink-with-bananas_23-2150822917.jpg"
+                                alt="Fresh Cocktail" class="product-image">
+                            <h2 class="product-title">Cocktail Fresh</h2>
+                            <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                            <p class="product-price">30.99$ <span class="text-muted"><del>40.99$</del></span></p>
+                            <button class="btn-buy">BUY NOW</button>
+                        </div>
+                        <div class="col-md-4 product-card">
+                            <img src="https://img.freepik.com/free-photo/arrangement-with-green-smoothie-lemons_23-2148226071.jpg?t=st=1724925617~exp=1724929217~hmac=f041f80fd139c3b68f4ac067a716e5cc1daca6d4b77e9aae3fd51fcd69cac75d&w=900"
+                                alt="Fresh Cocktail" class="product-image">
+                            <h2 class="product-title">Cocktail Fresh</h2>
+                            <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                            <p class="product-price">20.99$ <span class="text-muted"><del>50.99$</del></span></p>
+                            <button class="btn-buy">BUY NOW</button>
+                        </div>
+                        <div class="col-md-4 product-card">
+                            <img src="https://img.freepik.com/free-photo/Fresh-orange-juice-glass-dark-background_1150-45560.jpg"
+                                alt="Fresh Cocktail" class="product-image">
+                            <h2 class="product-title">Fresh Juice</h2>
+                            <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                            <p class="product-price">40.99$ <span class="text-muted"><del>69.00$</del></span></p>
+                            <button class="btn-buy">BUY NOW</button>
+                        </div>
+                        <div class="col-md-4 product-card">
+                            <img src="https://img.freepik.com/premium-photo/reFreshing-mojito-with-straw-label-wood-plank_1029476-424718.jpg"
+                                alt="Fresh Soup" class="product-image">
+                            <h2 class="product-title">Cocktail Fresh</h2>
+                            <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                            <p class="product-price">20.00$ <span class="text-muted"><del>40.00$</del></span></p>
+                            <button class="btn-buy">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
